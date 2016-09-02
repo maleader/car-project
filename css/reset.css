@@ -1,0 +1,31 @@
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ color:#247eed; text-decoration:none;}
+a:hover{ color:#ff4400;}
+input{ outline: none; background: none; border: 0 none;}
+textarea{ outline: none; resize: none; border: 0 none;}
+html{ font-size: 625%;}
+input,button{ cursor: pointer; -webkit-appearance: none; }/*去除苹果默认的渐变设*/
+/*清浮动*/
+.clearfix{ zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

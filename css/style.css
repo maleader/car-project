@@ -1,0 +1,467 @@
+/*index*/
+
+.company {
+	width: 100%;
+	height: 0.78rem;
+}
+
+.company h3 {
+	float: left;
+	font-size: 0.26rem;
+	margin: 0.27rem 0 0 0.36rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+
+.company span {
+	float: right;
+	margin: 0.27rem 0.25rem 0 0;
+	color: #666666;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.26rem;
+}
+
+.ad {
+	width: 100%;
+}
+
+.ad img {
+	width: 100%;
+}
+
+.nav {
+	margin-top: 0.1rem;
+}
+
+.nav li {
+	float: left;
+	margin: 0.15rem 0.03rem 0 0.16rem;
+}
+
+.nav a {
+	display: block;
+	width: 3.5rem;
+	height: 1.5rem;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #000;
+	font-weight: bold;
+	font-size: 0.34rem;
+}
+
+.nav .nav-1 {
+	background: url(../images/nav-1.jpg);
+	background-size: 100%;
+}
+
+.nav .nav-2 {
+	background: url(../images/nav-2.jpg);
+	background-size: 100%;
+}
+
+.nav .nav-3 {
+	background: url(../images/nav-3.jpg);
+	background-size: 100%;
+}
+
+.nav .nav-4 {
+	background: url(../images/nav-4.jpg);
+	background-size: 100%;
+}
+
+.nav .nav-5 {
+	background: url(../images/nav-5.jpg);
+	background-size: 100%;
+}
+
+.nav .nav-6 {
+	background: url(../images/nav-6.jpg);
+	background-size: 100%;
+}
+
+.phone {
+	margin-top: 0.82rem;
+	text-align: center;
+	color: #666666;
+	font-size: 0.26rem;
+}
+
+
+/*sell buy*/
+
+.topNav {
+	width: 100%;
+	border-bottom: 1px #f7f7f7 solid;
+	background: #ffffff;
+	height: 0.79rem;
+	line-height: 0.79rem;
+}
+
+.topNav li {
+	float: left;
+	width: 33.33%;
+	color: #666666;
+	text-align: center;
+	font-size: 0.26rem;
+}
+
+.carNav {
+	width: 100%;
+}
+
+.carNav li {
+	width: 100%;
+	height: 2rem;
+	background: #ffffff;
+	border-bottom: #e5e5e5 1px solid;
+}
+
+.carNav a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.carNav img {
+	float: left;
+	border: 1px #e5e5e5 solid;
+	width: 1.98rem;
+	margin: 0.26rem 0 0 0.16rem;
+}
+
+.carNav-right {
+	float: left;
+	margin: 0.26rem 0 0 0.3rem;
+}
+
+.carNav-right h3 {
+	font-size: 0.32rem;
+	line-height: 0.44rem;
+	color: #000000;
+}
+
+.carNav-right i {
+	display: block;
+	font-style: normal;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	font-size: 0.2rem;
+	color: #c1c1c1;
+}
+
+.price-pageView {
+	margin-top: 0.68rem;
+}
+
+.price-pageView h4,
+.place-type h4 {
+	float: left;
+	font-size: 0.32rem;
+	color: #d5d713;
+}
+
+.price-pageView b {
+	font-size: 0.2rem;
+}
+
+.price-pageView span,
+.place-type span {
+	float: right;
+	font-size: 0.2rem;
+	color: #c1c1c1;
+	margin-top: 0.12rem;
+}
+
+.place-type {
+	margin-top: 0.22rem;
+}
+
+
+/*business*/
+
+.topPublish {
+	width: 100%;
+	height: 0.96rem;
+	background: #ffffff;
+	padding-top: 0.24rem;
+}
+
+.topPublish a {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.26rem;
+	width: 3.8rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	border: 1px #ecee11 solid;
+	color: #dadc3c;
+}
+
+.topMargin {
+	margin-top: 0.18rem;
+}
+
+.carNum {
+	float: left;
+	width: 1.11rem;
+	height: 0.96rem;
+	line-height: 0.96rem;
+	color: #999999;
+	font-size: 0.34rem;
+	text-align: center;
+	border-right: 1px #c7c7cd solid;
+	margin-top: 0.44rem;
+}
+
+.leftMargin {
+	margin: 0.44rem 0 0 0.62rem;
+}
+
+.publishTime {
+	display: block;
+	margin-left: 4.12rem;
+	line-height: 0.48rem;
+	color: #C1C1C1;
+	font-size: 0.2rem;
+}
+
+.businessText {
+	width: 100%;
+	height: 3.48rem;
+	resize: none;
+	outline: none;
+	font-size: 0.26rem;
+	line-height: 0.36rem;
+	padding: 0.35rem 0.2rem 0.2rem;
+	border: 0 none;
+	border-bottom: #c8c7cc 1px solid;
+	overflow-y: auto;
+}
+
+.btnTopMargin {
+	margin-top: 2rem;
+}
+
+
+/*mySell myBuy*/
+
+.circleCheck {
+	float: left;
+	background: url(../images/check.png) no-repeat 0 -0.44rem;
+	background-size: 100%;
+	width: 0.44rem;
+	margin: 0.7rem 0 0 0.24rem;
+}
+
+.carCheck {
+	float: left;
+	margin-left: 0.08rem;
+	padding-bottom: 0.22rem;
+	width: 6.74rem;
+}
+
+.delBorder li {
+	border: 0 none;
+}
+
+.addBorder {
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.changeTopMargin {
+	margin-top: 0.24rem;
+}
+
+.addTopMargin {
+	margin-top: 0.24rem;
+}
+
+.addWidth {
+	width: 3.9rem;
+}
+
+
+/*carDetails*/
+
+.carImage {
+	width: 100%;
+	height: 3rem;
+}
+
+.carImage img {
+	width: 100%;
+}
+
+.carDetails {
+	background: #FFFFFF;
+	margin-top: 0.15rem;
+	width: 100%;
+	height: 2.99rem;
+	border-bottom: 1px #c8c7cc solid;
+}
+
+.carDetails dl {
+	padding: 0.2rem 0 0 0.46rem;
+}
+
+.carDetails dt {
+	line-height: 0.68rem;
+	font-size: 0.32rem;
+	font-weight: bold;
+}
+
+.carDetails dd {
+	float: left;
+	width: 2.25rem;
+	line-height: 0.5rem;
+	color: #999999;
+	font-size: 0.26rem;
+}
+
+.carDetails .changeWidth {
+	width: 4.5rem;
+}
+
+.carDetails strong {
+	display: block;
+	margin-left: 0.46rem;
+	height: 1.12rem;
+	line-height: 1.12rem;
+	color: #d5d713;
+	font-size: 0.34rem;
+}
+
+.carConfig {
+	margin-top: 0.15rem;
+	color: #c7c7cd;
+	font-size: 0.26rem;
+	padding: 0.32rem 0 0.32rem 0.3rem;
+	background: #FFFFFF;
+	border-bottom: #c8c7cc 1px solid;
+}
+
+.carConfig dt {
+	float: left;
+}
+
+.carConfig dd {
+	float: left;
+	width: 6.1rem;
+	line-height: 0.3rem;
+}
+
+.carHolder {
+	margin-top: 0.15rem;
+	padding: 0.12rem 0 0.26rem 0.36rem;
+	background: #FFFFFF;
+	border-bottom: #c8c7cc 1px solid;
+}
+
+.carHolder dt {
+	display: block;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.32rem;
+}
+
+.carHolder dd {
+	display: block;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #C7C7CD;
+	font-size: 0.26rem;
+}
+
+
+/*peopleDetails*/
+
+.peopleCompany {
+	width: 100%;
+	background: #FFFFFF;
+	height: 1.5rem;
+}
+
+.peopleCompany img {
+	float: left;
+	width: 0.84rem;
+	margin: 0.32rem 0 0 0.46rem;
+}
+
+.peopleCompany dl {
+	float: left;
+	margin: 0.32rem 0 0 0.18rem;
+}
+
+.peopleCompany dt {
+	font-size: 0.34rem;
+	color: #000000;
+	line-height: 0.48rem;
+}
+
+.peopleCompany dd {
+	font-size: 0.26rem;
+	color: #e5e5e5;
+	line-height: 0.48rem;
+}
+
+.changeHeight {
+	height: 2.3rem;
+	padding-top: 0.2rem;
+}
+
+
+/*sellPublish buyPublish*/
+
+.addRightMargin {
+	margin-right: 0.22rem;
+}
+
+.changeStyle {
+	float: right;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-top: 0.28rem;
+	font-size: 0.26rem;
+	text-align: right;
+}
+
+.configStyle {
+	width: 100%;
+	height: 0.33rem;
+	line-height: 0.36rem;
+	padding: 0.25rem 0.2rem 0 0;
+	font-size: 0.26rem;
+	overflow-y: auto;
+}
+
+.publishList .addImg {
+	float: left;
+	width: 0.58rem;
+	margin: 0.15rem 0 0 0;
+}
+
+.publishList .addIcon {
+	float: right;
+	width: 0.3rem;
+}
+
+.addPosition {
+	position: relative;
+}
+
+.publishList .uploadPhoto {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 0.88rem;
+}
+
+.publishList em {
+	float: left;
+	font-style: normal;
+	margin-left: 0.3rem;
+}
+
+.btnTopMargin{ margin-top: 2.2rem;}
