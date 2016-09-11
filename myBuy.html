@@ -14,10 +14,10 @@
 			<div class="topPublish">
 				<a href="buyPublish.html">发布一条</a>
 			</div>
-			<ul class="carNav topMargin delBorder">
+			<ul id="changeCheck" class="carNav topMargin delBorder">
 				<li class="clearfix">
 					<span class="circleCheck">
-						<input type="checkbox" />
+						<input class="checkBtn" type="checkbox" />
 					</span>
 					<div class="carCheck addBorder">
 						<img src="images/black-car.jpg"/>
@@ -32,7 +32,7 @@
 				</li>
 				<li class="clearfix">
 					<span class="circleCheck">
-						<input type="checkbox" />
+						<input class="checkBtn" type="checkbox" />
 					</span>
 					<div class="carCheck addBorder">
 						<img src="images/black-car.jpg"/>
@@ -47,8 +47,9 @@
 				</li>
 			</ul>
 			<div class="delBtn">
-				<input type="submit" value="删除（0）" class="delInput" />
+				<input type="submit" value="删除（0）" class="delInput changeNumber" />
 			</div>
 		</form>
+		<script src="js/mySellBuy.js"></script>
 	</body>
 </html>

@@ -12,32 +12,37 @@
 	<body>
 		<form>
 			<ul class="publishList">
-				<li>
-					<strong>标题</strong>
+				<li id="model" class="pubLi">
+					<strong>车型</strong>
 					<img src="images/icon.jpg"/>
-					<span>品牌 车型 车系 年份</span>			
+					<span>请选择</span>			
 				</li>
-				<li>
+				<li id="year" class="pubLi">
+					<strong>年份</strong>
+					<img src="images/icon.jpg"/>
+					<span>请选择</span>			
+				</li>
+				<li id="outColor" class="pubLi">
 					<strong>外色</strong>
 					<img src="images/icon.jpg"/>
-					<span>黑色</span>			
+					<span>请选择</span>			
 				</li>
-				<li>
+				<li id="inColor" class="pubLi">
 					<strong>内色</strong>
 					<img src="images/icon.jpg"/>
-					<span>白色</span>			
+					<span>请选择</span>			
 				</li>
 			</ul>
 			<ul class="publishList">
-				<li>
+				<li id="where" class="pubLi">
 					<strong>卖到哪里</strong>
 					<img src="images/icon.jpg"/>
-					<span>北京</span>			
+					<span>请选择</span>			
 				</li>
-				<li>
+				<li id="state" class="pubLi">
 					<strong>状态</strong>
 					<img src="images/icon.jpg"/>
-					<span>全款</span>			
+					<span>请选择</span>			
 				</li>
 			</ul>
 			<ul class="publishList">
@@ -48,7 +53,116 @@
 					<img src="images/icon.jpg" class="addIcon"/>
 				</li>
 			</ul>
+			<div id="publishFix" class="fix">
+			<ul class="modelUl">
+				<li class="clearfix">
+					<a href="javascript:void(0)">奔驰</a>
+					<ul>
+						<li class="clearfix">
+							<a href="javascript:void(0)">C系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">c63</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">c180</a>
+								</li>
+							</ul>
+						</li>
+						<li class="clearfix">
+							<a href="javascript:void(0)">E系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">e37</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">e120</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="clearfix">
+					<a href="javascript:void(0)">宝马</a>
+					<ul>
+						<li class="clearfix">
+							<a href="javascript:void(0)">C系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">c63</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">c180</a>
+								</li>
+							</ul>
+						</li>
+						<li class="clearfix">
+							<a href="javascript:void(0)">E系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">e37</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">e120</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="yearUl">
+				<li>
+					<a href="javascript:void(0)">2015</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">2014</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">2013</a>
+				</li>
+			</ul>
+			<ul class="outColorUl">
+				<li>
+					<a href="javascript:void(0)">黑色</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">白色</a>
+				</li>
+			</ul>
+			<ul class="inColorUl">
+				<li>
+					<a href="javascript:void(0)">红色</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">黑色</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">白色</a>
+				</li>
+			</ul>
+			<ul class="whereUl">
+				<li>
+					<a href="javascript:void(0)">北京</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">上海</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">杭州</a>
+				</li>
+			</ul>
+			<ul class="stateUl">
+				<li>
+					<a href="javascript:void(0)">全款</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">定金</a>
+				</li>
+			</ul>
+			<div class="fixRetract"></div>
+		</div>
 			<input class="publishBtn btnTopMargin" type="submit" value="发布"/>
 		</form>
+		<script src="js/sellBuyPublish.js"></script>
 	</body>
 </html>

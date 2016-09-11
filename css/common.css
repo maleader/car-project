@@ -131,3 +131,8 @@ body {
 	font-size: 0.34rem;
 	line-height: 0.46rem;
 }
+/*system notice*/
+.changeSpan{
+	display: block;
+	font-size: 0.32rem;	
+}

@@ -12,20 +12,20 @@
 	<body>
 		<form>
 			<ul class="publishList">
-				<li>
+				<li id="model" class="pubLi">
 					<strong>车型</strong>
 					<img src="images/icon.jpg"/>
-					<span>宝马 2015款 X6</span>			
+					<span>请选择</span>			
 				</li>
-				<li>
+				<li id="outColor" class="pubLi">
 					<strong>外色</strong>
 					<img src="images/icon.jpg"/>
-					<span>黑色</span>			
+					<span>请选择</span>			
 				</li>
-				<li>
+				<li id="inColor" class="pubLi">
 					<strong>内色</strong>
 					<img src="images/icon.jpg"/>
-					<span>白色</span>			
+					<span>请选择</span>			
 				</li>
 			</ul>
 			<ul class="publishList">
@@ -34,10 +34,10 @@
 					<span class="addRightMargin">万元</span>
 					<input type="text" class="changeStyle" placeholder="请输入价格" />
 				</li>
-				<li>
+				<li id="sort" class="pubLi">
 					<strong>类型</strong>
 					<img src="images/icon.jpg"/>
-					<span>欧版现货</span>			
+					<span>请选择</span>			
 				</li>
 			</ul>
 			<ul class="publishList">
@@ -53,7 +53,94 @@
 					<img src="images/icon.jpg" class="addIcon"/>
 				</li>
 			</ul>
+			<div id="publishFix" class="fix">
+			<ul class="modelUl">
+				<li class="clearfix">
+					<a href="javascript:void(0)">奔驰</a>
+					<ul>
+						<li class="clearfix">
+							<a href="javascript:void(0)">C系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">c63</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">c180</a>
+								</li>
+							</ul>
+						</li>
+						<li class="clearfix">
+							<a href="javascript:void(0)">E系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">e37</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">e120</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="clearfix">
+					<a href="javascript:void(0)">宝马</a>
+					<ul>
+						<li class="clearfix">
+							<a href="javascript:void(0)">C系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">c63</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">c180</a>
+								</li>
+							</ul>
+						</li>
+						<li class="clearfix">
+							<a href="javascript:void(0)">E系</a>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">e37</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">e120</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="outColorUl">
+				<li>
+					<a href="javascript:void(0)">黑色</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">白色</a>
+				</li>
+			</ul>
+			<ul class="inColorUl">
+				<li>
+					<a href="javascript:void(0)">红色</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">黑色</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">白色</a>
+				</li>
+			</ul>
+			<ul class="sortUl">
+				<li>
+					<a href="javascript:void(0)">欧版现货</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">港版现货</a>
+				</li>
+			</ul>
+			<div class="fixRetract"></div>
+		</div>
 			<input class="publishBtn btnTopMargin" type="submit" value="发布"/>
 		</form>
+		<script src="js/sellBuyPublish.js"></script>
 	</body>
 </html>
